@@ -5,8 +5,7 @@ metadata:
     name: nginx-ubuntu
 spec:
     containers:
-    - image: skbskhanin/ubuntu_2204
-      tag : 202404090035
+      - image: skbskhanin/ubuntu_2204:202404090035
       name: nginx-ubuntu
       ports:
       - containerPort: 8080
