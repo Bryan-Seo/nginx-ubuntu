@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: nginx-ubuntu
-    image: https://index.docker.io/v1/skbskhanin/ubuntu_2204:202404090035
+    image: registry.hub.docker.com/skbskhanin/ubuntu_2204:202404090035
       #    imagePullPolicy: Always
     ports:
     - containerPort: 8080
