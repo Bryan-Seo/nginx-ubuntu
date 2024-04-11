@@ -7,9 +7,6 @@ spec:
   containers:
   - name: nginx-ubuntu
     image: skbskhanin/ubuntu_2204:202404090035
-      #    imagePullPolicy: Always
     ports:
     - containerPort: 8080
       protocol: TCP
-        #  imagePullSecrets:
-        #  - name: regcred
