@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: nginx-ubuntu
-    image: skbskhanin/ubuntu_2204:202404090035
+    image: skbskhanin/ubuntu_2204:202404120143
     ports:
     - containerPort: 80
       protocol: TCP
