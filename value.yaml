@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: skbskhanin/ubuntu_2204:202404120143
         ports:
         - containerPort: 80
 
